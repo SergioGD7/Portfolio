@@ -1,0 +1,46 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio personal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "portrait": "sips -s format jpeg -s formatOptions 78 -Z 800 public/images/portrait-src.jpg --out public/images/portrait-1024.jpg && sips -s format jpeg -s formatOptions 80 -Z 512 public/images/portrait-src.jpg --out public/images/portrait-512.jpg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioGD7/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SergioGD7/Portfolio/issues"
+  },
+  "homepage": "https://github.com/SergioGD7/Portfolio#readme",
+  "private": "true",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.185.1",
+    "@vitejs/plugin-react": "^6.0.4",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-three/fiber": "^9.6.1",
+    "lenis": "^1.3.25",
+    "motion": "^12.43.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.185.1"
+  }
+}
